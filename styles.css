@@ -1,20 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
+* {
+  box-sizing: border-box;
+}
 
 body {
-    font-family: 'Ibarra Real Nova', serif;
+  font-family: "Ibarra Real Nova", serif;
 }
 
 .header {
-    _display: flex;
-   _ flex-direction: column;
-    _align-content: center;
+  _display: flex;
+  _flex-direction: column;
+  _align-content: center;
 }
 
 .img-me {
-    border-radius: 50%;
-    max-width: 100%;
-    height: auto;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
 }
 
+.navbar {
+  background-color: brown;
+  _padding: 40px;
+  width: 360px;
+}
 
+.navbar-list {
+  list-style: none;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 200px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.navbar-list li a {
+  padding: 25px;
+  border-radius: 20px;
+  min-width: 165px;
+}
+
+.about-me {
+  background-color: bisque;
+  color: black;
+  text-decoration: none;
+  _font-weight: bolder;
+}
+
+.cv {
+  background-color: lemonchiffon;
+  _margin: 10px;
+}
+
+.see-my-app {
+  background-color: lightgreen;
+}
+
+.contact {
+  background-color: cornflowerblue;
+}
