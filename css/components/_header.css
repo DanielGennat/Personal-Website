@@ -1,13 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Ibarra Real Nova", serif;
-}
-
 .header {
   _display: flex;
   _flex-direction: column;
@@ -54,7 +44,6 @@ body {
 
 .cv {
   background-color: lemonchiffon;
-  _margin: 10px;
 }
 
 .see-my-app {
