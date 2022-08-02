@@ -4,7 +4,7 @@
   _align-content: center;
 }
 
-.img-me {
+.header__img {
   border-radius: 50%;
   max-width: 100%;
   height: auto;
@@ -16,40 +16,58 @@
   width: 360px;
 }
 
-.navbar-list {
+.navbar__list {
   list-style: none;
   font-weight: bold;
   font-size: 25px;
-  background-color: aqua;
+  background-color: #1e1e1e;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  height: 200px;
-  gap: 10px;
+  gap: 5px;
+  _gap: 10px;
   padding: 10px;
 }
 
-.navbar-list li a {
-  padding: 25px;
-  border-radius: 20px;
-  min-width: 165px;
+.navbar__list li {
+  width: 49%;
+  display: block;
+  _margin-bottom: 10px;
 }
 
-.about-me {
-  background-color: bisque;
+/*.navbar__list li a {*/
+.navbar__link {
+  display: block;
+  _padding: 5px;
+  _padding: 25px;
+  padding: 20px 0 20px 0;
+  _border-radius: 7px;
+  border-radius: 15px;
+  _min-width: 165px;
+  _width: calc(50% - 5px);
+  text-align: center;
   color: black;
   text-decoration: none;
   _font-weight: bolder;
 }
 
-.cv {
+.navbar__link--about-me {
+  background-color: bisque;
+}
+
+.navbar__link--cv {
   background-color: lemonchiffon;
 }
 
-.see-my-app {
+.navbar__link--see-my-app {
   background-color: lightgreen;
 }
 
-.contact {
+.navbar__link--contact {
   background-color: cornflowerblue;
+}
+
+:visited {
+  background-color: var(--visited-background-color);
 }
