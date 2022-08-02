@@ -5,13 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daniel Gennat</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header class="header">
-      <h1 class="own-name">Daniel Gennat</h1>
-      <img class="img-me" src="images/Me.jpg" alt="Me" />
+      <h1 class="header__name">Daniel Gennat</h1>
+      <img class="header__img" src="images/Me.jpg" alt="Me" />
+      <nav class="navbar">
+        <ul class="navbar__list">
+          <li>
+            <a class="navbar__link navbar__link--about-me" href="#">About Me</a>
+          </li>
+          <li>
+            <a class="navbar__link navbar__link--cv" href="#">CV</a>
+          </li>
+          <li>
+            <a class="navbar__link navbar__link--see-my-app" href="#"
+              >See my App</a
+            >
+          </li>
+          <li>
+            <a class="navbar__link navbar__link--contact" href="#">Contact</a>
+          </li>
+        </ul>
+        <!--<p class="about-me">
+          <a href="#">About Me</a>
+        </p>
+        <p class="cv">
+          <a href="#">CV</a>
+        </p>-->
+      </nav>
     </header>
 
     <main>
